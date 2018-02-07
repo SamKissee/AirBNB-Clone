@@ -7,7 +7,9 @@ function Header(){
     justifyContent: 'space-between',
     alignItems: 'center',
     padding: '5px',
-    textDecoration: 'none'
+    textDecoration: 'none',
+    fontFamily: 'Roboto, sans-serif',
+    color: '#484848'
 
   };
   let headerImg = {
@@ -16,7 +18,8 @@ function Header(){
   };
   let headerLink = {
     textDecoration: 'none',
-    padding: '10px'
+    padding: '10px',
+    color: '#484848'
   };
   let headerNav = {
     // margin: '25px'
