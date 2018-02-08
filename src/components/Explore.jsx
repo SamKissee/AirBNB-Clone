@@ -1,9 +1,9 @@
-
-
 import React from 'react';
 import Homes from './Homes';
 import Experiences from './Experiences';
 import Restaurants from './Restaurants';
+import Ad from './Ad';
+import SliderComp from './Slider';
 import { Link } from 'react-router-dom';
 
 function Explore(){
@@ -57,8 +57,9 @@ function Explore(){
       <Link style={{display: 'flex'}} to="/experiences"><p>Show all (2000+)</p></Link>
       <Homes/>
       <Link style={{display: 'flex'}} to="/homes"><p>Show all (2000+)</p></Link>
-      <Restaurants/>
-    <Link style={{display: 'flex'}} to="/restaurants"><p>Show all (2000+)</p></Link>
+      <Ad/>
+      <SliderComp/>
+
     </div>
   );
 }

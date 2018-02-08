@@ -15,6 +15,7 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-router-dom": "^4.0.0",
+    "react-slick": "^0.18.0",
     "styled-jsx": "^2.2.4"
   },
   "devDependencies": {

@@ -74,17 +74,17 @@ function Restaurants(){
     <div>
       <h1>Restaurants</h1>
       <div style={{display: 'flex', flexWrap: 'wrap', margin: '10px'}}>
-          {restaurantList.map((restaurant, index) =>
-            <ExploreOptions
-              name={restaurant.name}
-              type={restaurant.type}
-              price={restaurant.price}
-              location={restaurant.location}
-              img={restaurant.img}
-              rating={restaurant.rating}
-              key={index}/>
-          )}
-        </div>
+        {restaurantList.map((restaurant, index) =>
+          <ExploreOptions
+            name={restaurant.name}
+            type={restaurant.type}
+            price={restaurant.price}
+            location={restaurant.location}
+            img={restaurant.img}
+            rating={restaurant.rating}
+            key={index}/>
+        )}
+      </div>
 
 
     </div>

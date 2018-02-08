@@ -74,17 +74,17 @@ function Homes(){
     <div>
       <h1>Homes</h1>
       <div style={{display: 'flex', flexWrap: 'wrap', margin: '10px'}}>
-          {homesList.map((home, index) =>
-            <ExploreOptions
-              name={home.name}
-              type={home.type}
-              price={home.price}
-              location={home.location}
-              img={home.img}
-              rating={home.rating}
-              key={index}/>
-          )}
-        </div>
+        {homesList.map((home, index) =>
+          <ExploreOptions
+            name={home.name}
+            type={home.type}
+            price={home.price}
+            location={home.location}
+            img={home.img}
+            rating={home.rating}
+            key={index}/>
+        )}
+      </div>
 
 
     </div>

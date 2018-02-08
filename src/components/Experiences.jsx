@@ -74,17 +74,17 @@ function Experiences(){
     <div>
       <h1>Experiences</h1>
       <div style={{display: 'flex', flexWrap: 'wrap', margin: '10px'}}>
-          {experienceList.map((experience, index) =>
-            <ExploreOptions
-              name={experience.name}
-              type={experience.type}
-              price={experience.price}
-              location={experience.location}
-              img={experience.img}
-              rating={experience.rating}
-              key={index}/>
-          )}
-        </div>
+        {experienceList.map((experience, index) =>
+          <ExploreOptions
+            name={experience.name}
+            type={experience.type}
+            price={experience.price}
+            location={experience.location}
+            img={experience.img}
+            rating={experience.rating}
+            key={index}/>
+        )}
+      </div>
         
 
     </div>
