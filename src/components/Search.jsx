@@ -7,7 +7,7 @@ function Search(){
     borderRadius: '3px',
     width: '90%',
     height: '30px',
-    boxShadow: '0px 0px 30px -10px rgba(0,0,0,0.75)',
+    boxShadow: '0px 0px 30px -11px rgba(0,0,0,0.75)',
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
