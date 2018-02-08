@@ -7,6 +7,7 @@ import Slider from 'react-slick';
 class SliderComp extends React.Component {
   render() {
     let settings = {
+      arrows: true,
       dots: false,
       infinite: false,
       speed: 500,
@@ -42,11 +43,11 @@ class SliderComp extends React.Component {
 
     return(
       <div>
-        <style jsx>
+        <style global jsx>
           {`
             .slick-prev:before,
             .slick-next:before {
-              color: yellow;
+              color: #767676;
             }
           `}
         </style>
