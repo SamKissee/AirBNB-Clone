@@ -1,7 +1,7 @@
 import React from 'react';
 import Homes from './Homes';
 import Experiences from './Experiences';
-import Restaurants from './Restaurants';
+// import Restaurants from './Restaurants';
 import Ad from './Ad';
 import SliderComp from './Slider';
 import { Link } from 'react-router-dom';

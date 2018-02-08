@@ -13,8 +13,10 @@
   "dependencies": {
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
+    "react-country-region-selector": "^1.2.3",
     "react-dom": "^15.5.4",
     "react-router-dom": "^4.0.0",
+    "react-select-currency": "^1.0.7",
     "react-slick": "^0.18.0",
     "styled-jsx": "^2.2.4"
   },

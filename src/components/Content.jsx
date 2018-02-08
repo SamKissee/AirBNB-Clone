@@ -3,6 +3,7 @@ import Hero from './Hero';
 import Explore from './Explore';
 
 
+
 // import PropTypes from "prop-types"; <--- needed for props
 
 function Content(){

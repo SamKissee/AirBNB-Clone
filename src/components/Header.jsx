@@ -29,7 +29,7 @@ function Header(){
     <div style={headerStyle}>
       <img style={headerImg} src="http://logodatabases.com/wp-content/uploads/2017/06/airbnb_logo_small.png"></img>
       <div style={headerNav}>
-        <Link style={headerLink} to="/">Become a Host</Link> <Link style={headerLink} to="/">Help</Link> <Link style={headerLink} to="/">Sign Up</Link> <Link style={headerLink} to="/">Log In</Link>
+        <Link style={headerLink} to="/">Become a Host</Link> <Link style={headerLink} to="/">Help</Link> <Link style={headerLink} to="/">Sign Up</Link> <Link style={headerLink} to="/about">Our Team</Link>
       </div>
 
     </div>
