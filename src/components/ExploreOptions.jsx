@@ -7,8 +7,8 @@ function ExploreOptions(props){
       <style jsx>
         {`
           img {
-            height: 175px;
-            width: auto;
+            height: auto;
+            width: 100%;
             border-radius: 3px;
           }
           h4{
@@ -23,7 +23,9 @@ function ExploreOptions(props){
             font-weight: 300;
           }
           .option{
-            margin: 10px;
+            margin: 10px 8px 0px 8px;
+            width: 246px;
+
           }
         `}
       </style>

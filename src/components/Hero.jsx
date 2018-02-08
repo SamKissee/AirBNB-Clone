@@ -8,6 +8,7 @@ function Hero(){
     justifyContent: 'center',
     flexDirection: 'column',
     width: '70%',
+    maxWidth: '1080px',
     margin: '180px auto',
     fontFamily: 'Roboto, sans-serif',
     color: '#484848',

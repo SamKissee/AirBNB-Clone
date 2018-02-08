@@ -8,7 +8,8 @@ import { Link } from 'react-router-dom';
 
 function Explore(){
   let main = {
-    margin: '0px 30px',
+    margin: '0px auto',
+    maxWidth: '1080px',
     fontFamily: 'Roboto, sans-serif'
   };
   let linkBlock = {
@@ -53,8 +54,11 @@ function Explore(){
         </div>
       </div>
       <Experiences/>
+      <Link style={{display: 'flex'}} to="/experiences"><p>Show all (2000+)</p></Link>
       <Homes/>
+      <Link style={{display: 'flex'}} to="/homes"><p>Show all (2000+)</p></Link>
       <Restaurants/>
+    <Link style={{display: 'flex'}} to="/restaurants"><p>Show all (2000+)</p></Link>
     </div>
   );
 }
