@@ -22,13 +22,18 @@ function ExploreOptions(props){
             margin: 5px 0px;
             font-weight: 300;
           }
+          .option{
+            margin: 10px;
+          }
         `}
       </style>
-      <img src={props.img}></img>
-      <h4>{props.type} - {props.location}</h4>
-      <h3>{props.name}</h3>
-      <p>{props.price}</p>
-      <p>{props.rating}</p>
+      <div className='option'>
+        <img src={props.img}></img>
+        <h4>{props.type} - {props.location}</h4>
+        <h3>{props.name}</h3>
+        <p>{props.price}</p>
+        <p>{props.rating}</p>
+      </div>
     </div>
   );
 }

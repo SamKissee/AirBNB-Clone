@@ -26,13 +26,21 @@ function Experiences(){
       name: 'The Surf Champion',
       price: '$12 per person',
       rating: 'Five Stars 52'
+    },
+    {
+      img: 'https://a0.muscache.com/im/pictures/8b7519ec-2c82-4c09-8233-fd4d2715bbf9.jpg?aki_policy=large',
+      type: 'Surf Lesson',
+      location: 'Bali',
+      name: 'The Surf Champion',
+      price: '$12 per person',
+      rating: 'Five Stars 52'
     }
   ];
 
   return (
     <div>
       <h1>Experiences</h1>
-      <div style={{display: 'flex'}}>
+      <div style={{display: 'flex', margin: '10px'}}>
         {experienceList.map((experience, index) =>
           <ExploreOptions
             name={experience.name}
